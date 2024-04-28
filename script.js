@@ -1,8 +1,80 @@
 let buffer = '0';
 let screen = document.querySelector('.screen');
 
+let previousOperator;
+let result = 0;
+
+function backspace(){
+    if(buffer.length === 1)
+        buffer = '0';
+    else 
+        buffer = buffer.substring(0,buffer.length-1);
+}
+
+function flushOperation(){
+    switch(previousOperator){
+        case '+':
+            result += Number.parseInt(buffer);
+            buffer = '0';
+            break;
+        case '-':
+            result -= Number.parseInt(buffer);
+            buffer = '0';
+            break;
+        case '×':
+            result *= Number.parseInt(buffer);
+            buffer = '0';
+            break;
+        case '÷':
+            result /= Number.parseInt(buffer);
+            buffer = '0';
+            break;
+    }
+}
+
+function doMaths(symbol){
+    if(buffer === '0')
+        return;
+
+    if(result === 0){
+        result = Number.parseInt(buffer);
+        buffer = '0';
+    }
+    else{
+        flushOperation();
+    }
+
+    previousOperator = symbol;
+}
+
 function symbolHandler(value){
-    console.log('symbol');
+    switch(value){
+        case 'C':
+            buffer = '0';
+            result = 0;
+            previousOperator = '';
+            break;
+        case '←':
+            backspace();
+            break;
+        case '÷':
+        case '×':
+        case '-':
+        case '+':
+            doMaths(value);    
+            break;
+        case '=':
+            if(result === 0){
+                // do nothing
+                return;
+            }
+            
+            flushOperation();
+
+            buffer = result.toString();
+            break;
+
+    }
 }
 
 function numberHandler(value){

@@ -44,6 +44,14 @@
 .last-button-of-the-row{
     background-color: #df974c;  
     color: white;
+    border-right: none;
+}
+
+.left{
+    border-left: none;
+}
+.bottom{
+    border-bottom: none;
 }
 
 .last-button-of-the-row:active {

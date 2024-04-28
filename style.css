@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+.calculator {
+    width: 400px;
+    background-color: black;
+    color: white;
+}
+
+.screen{
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: right;
+    padding: 20px 5px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "C C ← ÷"
+                        "seven eight nine multiplyy"
+                        "four five six minus"
+                        "one two three plus"
+                        "zeroo zeroo zeroo equal";
+}
+
+
+.calculator-button {
+    height: 100px;
+    background-color: #d8d9db;
+    border: 1.5px solid black;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.calculator-button:hover {
+    background-color: #ebebeb;
+}
+
+.calculator-button:active{
+    background-color: #bbbcbe;
+}
+
+.last-button-of-the-row{
+    background-color: #df974c;  
+    color: white;
+}
+
+.last-button-of-the-row:active {
+    background-color: #dd8d37;
+}
+
+.last-button-of-the-row:hover {
+    background-color: #dfb07e;
+}
+
+.C {
+    grid-area: C;
+}
+
+.← {
+    grid-area: ←;
+}
+
+.÷ {
+    grid-area: ÷;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.eight {
+    grid-area: eight;
+}
+
+.nine {
+    grid-area: nine;
+}
+
+.x {
+    grid-area: multiplyy;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+.minus {
+    grid-area: minus;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.plus{
+    grid-area: plus;
+}
+
+.zero {
+    grid-area: zeroo;
+}
+
+.equal {
+    grid-area: equal;
+}

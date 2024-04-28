@@ -18,12 +18,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: "C C ← ÷"
-                        "seven eight nine multiplyy"
+                        "seven eight nine ×"
                         "four five six minus"
                         "one two three plus"
                         "zeroo zeroo zeroo equal";
 }
-
 
 .calculator-button {
     height: 100px;
@@ -86,8 +85,8 @@
     grid-area: nine;
 }
 
-.x {
-    grid-area: multiplyy;
+.× {
+    grid-area: ×;
 }
 
 .four {

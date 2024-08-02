@@ -12,18 +12,14 @@ Welcome to the Mac-Like JavaScript Calculator repository! This simple yet elegan
 - **Mac-Like Interface:** Enjoy a sleek and intuitive user interface inspired by macOS.
 - **User-Friendly:** Easy-to-use design suitable for users of all levels.
 
-## Usage
+## Live Demo
 
-To use the calculator, simply open this <a href='https://wamikabro.github.io/javascript-calculator.github.io/'>URL</a> in your web browser. Then, input your numbers and select the desired operation.
+To use the calculator, simply open [this URL](https://wamikabro.github.io/web-dev-projects.github.io/javascript-calculator/) in your web browser. Then, input your numbers and select the desired operation.
 
 Please note:
 
 - This calculator does not support fractional values.
 - It does not provide percentage calculations or handle complex tasks.
-
-## Demo
-
-Check out a live demo [here](https://wamikabro.github.io/web-dev-projects.github.io/javascript-calculator/).
 
 ## Screenshot
 

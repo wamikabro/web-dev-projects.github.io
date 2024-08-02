@@ -13,7 +13,7 @@ Welcome to the Web Dev Projects repository! This repository contains a collectio
 
 Check out the live demos of each project:
 
-- [Mac Like Calculator](https://github.com/wamikabro/web-dev-projects.github.io/javascript-calculator) - Simple Web based calculator to do arithmetics.
+- [Mac Like Calculator]([https://github.com/wamikabro/web-dev-projects.github.io/javascript-calculator](https://wamikabro.github.io/web-dev-projects.github.io/javascript-calculator/)) - Simple Web based calculator to do arithmetics.
 
 ## Installation
 

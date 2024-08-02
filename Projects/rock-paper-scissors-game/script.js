@@ -61,8 +61,10 @@ function whoWin(userChoice, computerChoice) {
 function updateScreen(winner) {
   if (winner === "User") {
     result.textContent = "You Win!";
+    userScore.textContent = Number(userScore.textContent) + 1;
   } else if (winner === "Computer") {
     result.textContent = "You Lose!";
+    computerScore.textContent = Number(computerScore.textContent) + 1;
   } else {
     result.textContent = "Draw.";
   }

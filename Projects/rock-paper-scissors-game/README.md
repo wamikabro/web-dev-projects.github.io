@@ -23,7 +23,7 @@ Please note:
 
 ## Screenshot
 
-![Rock-Paper-Scissors Screenshot](#)
+![Rock-Paper-Scissors Screenshot](https://github.com/user-attachments/assets/4b723f14-f721-4cf2-9e18-1614e119cbed)
 
 ## Contributing
 

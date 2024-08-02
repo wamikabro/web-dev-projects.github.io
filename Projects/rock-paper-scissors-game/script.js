@@ -1,9 +1,9 @@
 const rockButton = document.querySelector(".rock-button");
 const paperButton = document.querySelector(".paper-button");
 const scissorsButton = document.querySelector(".scissors-button");
-
-let userScore = 0;
-let computeScore = 0;
+const userScore = document.querySelector("#user-score");
+const computerScore = document.querySelector("#computer-score");
+const result = document.querySelector(".result");
 
 // Rules
 const outcomes = {
@@ -47,10 +47,23 @@ function run(userChoice) {
 
   // it will return Draw, User, Computer
   const winner = whoWin(userChoice, computerChoice());
+
+  // to update score and result
+  updateScreen(winner);
 }
 
 function whoWin(userChoice, computerChoice) {
   if (outcomes[userChoice] && outcomes[userChoice][computerChoice]) {
     return outcomes[userChoice][computerChoice];
+  }
+}
+
+function updateScreen(winner) {
+  if (winner === "User") {
+    result.textContent = "You Win!";
+  } else if (winner === "Computer") {
+    result.textContent = "You Lose!";
+  } else {
+    result.textContent = "Draw.";
   }
 }

@@ -5,10 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
+    <div class="content">
+        <h1>Rock Paper Scissors</h1>
+        <div class="moves-section">
+            <p>Choose your move:</p>
+            <div class="buttons">
+                <button class="rock-button">
+                    <i class="fas fa-hand-rock"></i>
+                </button>
+                <button class="paper-button">
+                    <i class="fas fa-hand-paper"></i>
+                </button>
+                <button class="scissors-button">
+                    <i class="fas fa-hand-scissors"></i>
+                </button>
+            </div>
+        </div>
+        <p class="scores-paragraph">
+        <p>Your Score: <span id="user-score">0</span> Compouter Score: <span id="computer-score">0</span></p>
+        </p>
+    </div>
+    <script src="https://kit.fontawesome.com/4f4b471986.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

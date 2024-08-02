@@ -1,0 +1,66 @@
+html {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Sogeo UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.paper-button,
+.scissors-button,
+.rock-button {
+  font-size: 50px;
+  color: yellow;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.rock-button {
+  background-color: red;
+}
+
+.rock-button:hover {
+  background-color: lightcoral;
+}
+
+.paper-button {
+  background-color: blue;
+}
+
+.paper-button:hover {
+  background-color: lightblue;
+}
+
+.scissors-button {
+  background-color: green;
+}
+
+.scissors-button:hover {
+  background-color: lightgreen;
+}
+
+.scores-paragraph {
+  gap: 10px;
+}
+
+#user-score {
+  color: blue;
+}
+#computer-score {
+  color: red;
+}

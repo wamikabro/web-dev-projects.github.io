@@ -13,24 +13,24 @@ Welcome to the Web Dev Projects repository! This repository contains a collectio
 
 Check out the live demos of each project:
 
-- [Mac Like Calculator](https://wamikabro.github.io/web-dev-projects.github.io/javascript-calculator/) - Simple Web based calculator to do arithmetics.
+- [Mac Like Calculator](https://wamikabro.github.io/web-dev-projects.github.io/Projects/javascript-calculator/) - Simple Web based calculator to do arithmetics.
 
 ## Installation
 
 To run any of these projects locally:
 
 1. **Clone the Repository:**
-    ```bash
-    git clone https://github.com/wamikabro/web-dev-projects.github.io.git
-    ```
+   ```bash
+   git clone https://github.com/wamikabro/web-dev-projects.github.io.git
+   ```
 2. **Navigate to the Project Directory:**
-    ```bash
-    cd web-dev-projects.github.io/project-name
-    ```
+   ```bash
+   cd web-dev-projects.github.io/project-name
+   ```
 3. **Open the `index.html` file in your browser:**
-    ```bash
-    open index.html
-    ```
+   ```bash
+   open index.html
+   ```
 
 ## Contributing
 
@@ -45,6 +45,7 @@ Contributions are welcome! Fork the repository and submit a pull request. For ma
 ## Contact
 
 For questions or suggestions, reach out:
+
 - **Email:** [Wamique Abro](mailto:wamikabro212@gmail.com)
 
 Enjoy exploring the Web Dev Projects!

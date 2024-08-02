@@ -14,7 +14,7 @@ Welcome to the Mac-Like JavaScript Calculator repository! This simple yet elegan
 
 ## Live Demo
 
-To use the calculator, simply open [this URL](https://wamikabro.github.io/web-dev-projects.github.io/javascript-calculator/) in your web browser. Then, input your numbers and select the desired operation.
+To use the calculator, simply open [this URL](https://wamikabro.github.io/web-dev-projects.github.io/Projects/javascript-calculator/) in your web browser. Then, input your numbers and select the desired operation.
 
 Please note:
 
@@ -35,11 +35,8 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a pull request
 
-## Acknowledgements
-
-- Hat tip to [MacRumors](https://www.macrumors.com/) for the design inspiration.
-- Thanks to [CSS](#) for the responsive layout.
-
 ---
 
 Feel free to reach out with any questions, feedback, or suggestions. Happy calculating!
+
+- **Email:** [Wamique Abro](mailto:wamikabro212@gmail.com)

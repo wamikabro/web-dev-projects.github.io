@@ -1,5 +1,3 @@
-Got it! Here's the updated content including a dedicated "Credits" section with a link to the Unsplash Developers page:
-
 # Image-Search-App
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)]()
@@ -18,7 +16,7 @@ To try the Image Search App, simply open [this URL](https://wamikabro.github.io/
 
 ## Screenshot
 
-![Image-Search-App Screenshot]()
+![Image Search App Screenshot](https://github.com/user-attachments/assets/8f16ea38-388a-4ff1-afb3-10bbcfc0e588)
 
 ## Contributing
 

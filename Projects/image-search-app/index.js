@@ -22,6 +22,10 @@ async function callAPI(searchQuery) {
   const data = await response.json();
   const results = data.results;
 
+  if (page === 1) {
+    searchResultsSection.innerHTML = "";
+  }
+
   // results has the objects, each object containing a result
   // that's why we will iterate through it using map
   results.map((results) => {

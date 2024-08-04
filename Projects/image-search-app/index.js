@@ -11,7 +11,12 @@ const accessKey = "RZEIOVfPhS7vMLkFdd2TSKGFBS4o9_FmcV1Nje3FSjw"; // will change 
 searchButton.addEventListener("click", () => {
   // not empty
   if (searchBox.value) {
+    showMoreButton.classList.remove("hidden");
     callAPI(searchBox.value);
+  } // if empty
+  else {
+    showMoreButton.classList.add("hidden");
+    searchResultsSection.innerHTML = "";
   }
 });
 

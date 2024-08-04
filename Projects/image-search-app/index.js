@@ -2,22 +2,27 @@ const searchBox = document.querySelector(".search-box");
 const searchButton = document.querySelector(".search-button");
 const showMoreButton = document.querySelector(".show-more-button");
 const searchResultsSection = document.querySelector(".search-results-section");
-
 // things to be passed into API URL
 let page = 1;
 let searchQuery = "";
 const accessKey = "RZEIOVfPhS7vMLkFdd2TSKGFBS4o9_FmcV1Nje3FSjw"; // will change it after verification
 
 searchButton.addEventListener("click", () => {
-  // not empty
-  if (searchBox.value) {
-    showMoreButton.classList.remove("hidden");
-    callAPI(searchBox.value);
-  } // if empty
+  searchQuery = searchBox.value;
+  page = 1; // reset page on new search
+  // if search query is not empty
+  if (searchQuery) {
+    callAPI(searchQuery);
+  } // if search query is empty
   else {
     showMoreButton.classList.add("hidden");
     searchResultsSection.innerHTML = "";
   }
+});
+
+showMoreButton.addEventListener("click", () => {
+  page++;
+  callAPI(searchQuery);
 });
 
 async function callAPI(searchQuery) {
@@ -29,6 +34,15 @@ async function callAPI(searchQuery) {
 
   if (page === 1) {
     searchResultsSection.innerHTML = "";
+  }
+
+  // if data was found, then show 'show more' button, otherwise just return
+  // don't do further things
+  if (data.total != 0) {
+    showMoreButton.classList.remove("hidden");
+  } else {
+    showMoreButton.classList.add("hidden");
+    return;
   }
 
   // results has the objects, each object containing a result

@@ -14,7 +14,8 @@ Welcome to the Web Dev Projects repository! This repository contains a collectio
 Check out the live demos of each project:
 
 - [Mac Like Calculator](https://wamikabro.github.io/web-dev-projects.github.io/Projects/javascript-calculator/) - Simple Web based calculator to do arithmetics.
-
+- [Rock Paper Scissors Game](https://wamikabro.github.io/web-dev-projects.github.io/Projects/rock-paper-scissors-game/) User vs Computer Rock Paper Scissors Responsive Game.
+- [Sticky Navbar](https://wamikabro.github.io/web-dev-projects.github.io/Projects/sticky-navbar/) Sticky Navbar on desktop.
 ## Installation
 
 To run any of these projects locally:

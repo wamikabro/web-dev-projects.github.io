@@ -19,8 +19,26 @@ async function callAPI(searchQuery) {
   const apiURL = `https://api.unsplash.com/search/photos?page=${page}&query=${searchQuery}&client_id=${accessKey}`;
 
   const response = await fetch(apiURL);
-
   const data = await response.json();
+  const results = data.results;
 
-  console.log(data);
+  // results has the objects, each object containing a result
+  // that's why we will iterate through it using map
+  results.map((results) => {
+    const imageWrapper = document.createElement("div");
+    imageWrapper.classList.add("search-result");
+
+    const image = document.createElement("img");
+    image.src = results.urls.small;
+    image.alt = results.urls.alt_description;
+
+    const imageLink = document.createElement("a");
+    imageLink.href = results.links.html;
+    imageLink.target = "_blank";
+    imageLink.textContent = results.alt_description;
+
+    imageWrapper.appendChild(image);
+    imageWrapper.appendChild(imageLink);
+    searchResultsSection.appendChild(imageWrapper);
+  });
 }

@@ -1,10 +1,8 @@
-Certainly! Here's the modified content for a "Rock-Paper-Scissors Game":
-
 # Rock-Paper-Scissors Game
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)]()
 
-Welcome to the Rock-Paper-Scissors Game repository! This fun and interactive game lets you play the classic Rock-Paper-Scissors game right in your web browser.
+Welcome to the Rock-Paper-Scissors Game project! This fun and interactive game lets you play the classic Rock-Paper-Scissors game right in your web browser.
 
 ## Features
 

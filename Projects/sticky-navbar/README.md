@@ -17,7 +17,7 @@ To see the sticky navbar in action, simply open [this URL](https://wamikabro.git
 
 ## Screenshot
 
-![Sticky-Navbar Screenshot]([https://github.com/user-attachments/assets/4b723f14-f721-4cf2-9e18-1614e119cbed](https://github.com/user-attachments/assets/4b58adba-1231-46e0-87b0-282f972eae8f))
+![Sticky-Navbar Screenshot](https://github.com/user-attachments/assets/4b58adba-1231-46e0-87b0-282f972eae8f)
 
 ## Contributing
 

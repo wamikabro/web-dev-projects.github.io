@@ -21,6 +21,10 @@ submitButton.addEventListener("click", () => {
 
 function fetchTheDay() {}
 
+function validateTheGivenDate(days, month, year) {
+  return days <= howManyDaysInMonth(month, year);
+}
+
 function howManyDaysInMonth(month, year) {
   if (isMonthFebruary(month)) {
     if (isLeapYear(year)) {
@@ -39,14 +43,6 @@ function isLeapYear(year) {
 
 function isMonthFebruary(month) {
   return month == 2;
-}
-
-function isDayUnder29(value) {
-  return value <= 29;
-}
-
-function isDayUnder28(value) {
-  return value <= 28;
 }
 
 // Validate inputs before submission

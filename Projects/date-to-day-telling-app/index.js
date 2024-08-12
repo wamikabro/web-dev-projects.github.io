@@ -32,6 +32,10 @@ function fetchTheDay(days, month, year) {
 
 function dayFromDate(days, month, year) {}
 
+function last2DigitsOfYear(year) {
+  return year % 100;
+}
+
 function howMuchToAdd(year) {
   const mappingArray = [0, 5, 3, 1];
   return mappingArray[Math.floor(year / 100) % 4]; // %4 is ensuring repeatation of cycle

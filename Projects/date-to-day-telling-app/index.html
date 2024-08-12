@@ -18,11 +18,11 @@
             <div class="ask-section">
                 <div>
                     <label for="day">Day</label>
-                    <input type="number" min="1" max="31">
+                    <input type="number" id="day-input" min="1" max="31">
                 </div>
                 <div>
                     <label for="month">Month</label>
-                    <select id="month" name="month" required>
+                    <select id="month-input" name="month" required>
                         <option value="1">January</option>
                         <option value="2">February</option>
                         <option value="3">March</option>
@@ -40,11 +40,11 @@
 
                 <div>
                     <label for="year">Year</label>
-                    <input type="number" min="1">
+                    <input type="number" id="year-input" min="1">
 
                 </div>
                 <div>
-                    <button>Go!</button>
+                    <button type="submit" id="submit-button">Go!</button>
                 </div>
 
             </div>

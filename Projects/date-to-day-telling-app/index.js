@@ -32,6 +32,10 @@ function fetchTheDay(days, month, year) {
 
 function dayFromDate(days, month, year) {}
 
+function find25Percent(number) {
+  return (number / 100) * 25;
+}
+
 function last2DigitsOfYear(year) {
   return year % 100;
 }

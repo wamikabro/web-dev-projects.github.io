@@ -37,8 +37,8 @@ function isLeapYear(year) {
   return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
 }
 
-function isMonthFebruary() {
-  return monthInput.value == 2;
+function isMonthFebruary(month) {
+  return month == 2;
 }
 
 function isDayUnder29(value) {

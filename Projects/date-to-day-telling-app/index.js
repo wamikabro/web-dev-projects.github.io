@@ -15,6 +15,22 @@ yearInput.addEventListener("input", () => {
   minAndMaxValueValidator(yearInput, "min");
 });
 
+submitButton.addEventListener("click", () => {
+  fetchTheDay();
+});
+
+function isDayUnder29() {
+  return dayInput.value <= 29;
+}
+
+function isDayUnder28() {
+  return dayInput.value <= 28;
+}
+
+function isMonthFebruary() {
+  return monthInput.value == 2;
+}
+
 // Validate inputs before submission
 function minAndMaxValueValidator(selector, checkValidationOf) {
   if (checkValidationOf == "min") {

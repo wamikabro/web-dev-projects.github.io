@@ -16,10 +16,26 @@ yearInput.addEventListener("input", () => {
 });
 
 submitButton.addEventListener("click", () => {
-  fetchTheDay();
+  const days = +dayInput.value;
+  const month = +monthInput.value;
+  const year = +yearInput.value;
+  fetchTheDay(days, month, year);
 });
 
-function fetchTheDay() {}
+function fetchTheDay(days, month, year) {
+  if (validateTheGivenDate(days, month, year)) {
+    dayFromDate(days, month, year);
+  } else {
+    alert(`Invalid Date. There are no ${days} days month ${month} in ${year}.`);
+  }
+}
+
+function dayFromDate(days, month, year) {}
+
+function howMuchToAdd(year) {
+  const mappingArray = [0, 5, 3, 1];
+  return mappingArray[Math.floor(year / 100) % 4]; // %4 is ensuring repeatation of cycle
+}
 
 function validateTheGivenDate(days, month, year) {
   return days <= howManyDaysInMonth(month, year);

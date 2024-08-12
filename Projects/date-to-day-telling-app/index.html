@@ -13,16 +13,46 @@
         <h1>Date to Day Teller</h1>
     </header>
     <main>
-        <div class="ask-section">
-            <label>Enter your desired date to get day</label>
-            <div>
-                <input type="date">
-                <button>Go!</button>
-            </div>
-        </div>
+        <section class="main-section">
+            <p>Enter your desired date to get day</p>
+            <div class="ask-section">
+                <div>
+                    <label for="day">Day</label>
+                    <input type="number" min="1" max="31">
+                </div>
+                <div>
+                    <label for="month">Month</label>
+                    <select id="month" name="month" required>
+                        <option value="1">January</option>
+                        <option value="2">February</option>
+                        <option value="3">March</option>
+                        <option value="4">April</option>
+                        <option value="5">May</option>
+                        <option value="6">June</option>
+                        <option value="7">July</option>
+                        <option value="8">August</option>
+                        <option value="9">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                    </select>
+                </div>
 
-        <p class="result hide">The day on <span id="date-container">date</span> is <span id="day-container">day</span>
-        </p>
+                <div>
+                    <label for="year">Year</label>
+                    <input type="number" min="1">
+
+                </div>
+                <div>
+                    <button>Go!</button>
+                </div>
+
+            </div>
+
+            <p class="result hide">The day on <span id="date-container">date</span> is <span
+                    id="day-container">day</span>
+            </p>
+        </section>
     </main>
 
     <script src="index.js"></script>

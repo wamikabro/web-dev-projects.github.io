@@ -19,16 +19,34 @@ submitButton.addEventListener("click", () => {
   fetchTheDay();
 });
 
-function isDayUnder29() {
-  return dayInput.value <= 29;
+function fetchTheDay() {}
+
+function howManyDaysInMonth(month, year) {
+  if (isMonthFebruary(month)) {
+    if (isLeapYear(year)) {
+      return 29;
+    }
+    return 28;
+  } else if (month % 2 == 0) {
+    return 30;
+  }
+  return 31;
 }
 
-function isDayUnder28() {
-  return dayInput.value <= 28;
+function isLeapYear(year) {
+  return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
 }
 
 function isMonthFebruary() {
   return monthInput.value == 2;
+}
+
+function isDayUnder29(value) {
+  return value <= 29;
+}
+
+function isDayUnder28(value) {
+  return value <= 28;
 }
 
 // Validate inputs before submission

@@ -31,11 +31,6 @@ function fetchTheDay(days, month, year) {
 }
 
 function dayFromDate(days, month, year) {
-  // take 2 last digits of the year
-  // plus 25% of the last 2 digits in it
-  // divide it by 7 and take its remainder : this is year code
-  // if its leap year -1
-
   const yearCode = getYearCode(year);
   const monthCode = getMonthCode(year, month);
 }
@@ -48,7 +43,7 @@ function getMonthCode(year, month) {
     monthCode--;
   }
 
-  console.log(monthCode);
+  return monthCode;
 }
 
 function getYearCode(year) {

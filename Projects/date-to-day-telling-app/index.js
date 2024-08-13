@@ -24,10 +24,19 @@ submitButton.addEventListener("click", () => {
 
 function fetchTheDay(days, month, year) {
   if (validateTheGivenDate(days, month, year)) {
-    dayFromDate(days, month, year);
+    const dayCode = dayFromDate(days, month, year);
+    const day = dayCodeObject[dayCode];
+    showResult(days, month, year, day);
   } else {
     alert(`Invalid Date. There are no ${days} days month ${month} in ${year}.`);
   }
+}
+
+function showResult(days, month, year, day) {
+  dateContainer.textContent = `${days}-${month}-${year}`;
+  dayContainer.textContent = `${day}`;
+  // unhide the result paragraph
+  result.classList.remove("hide");
 }
 
 function dayFromDate(days, month, year) {

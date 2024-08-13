@@ -52,7 +52,7 @@ function getYearCode(year) {
   return 0;
 }
 
-const monthCode = {
+const monthCodeObject = {
   // Month: Value
   1: 6,
   2: 2,

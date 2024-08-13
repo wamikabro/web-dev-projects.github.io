@@ -35,6 +35,21 @@ function dayFromDate(days, month, year) {
   // plus 25% of the last 2 digits in it
   // divide it by 7 and take its remainder : this is year code
   // if its leap year -1
+
+  const yearCode = getYearCode(year);
+}
+
+function getYearCode(year) {
+  const partialResult =
+    last2DigitsOfYear(year) + find25Percent(last2DigitsOfYear(year));
+
+  // if the sum is non zero
+  if (partialResult) {
+    // full result
+    return (partialResult - subtract1IfLeapYear(year) + howMuchToAdd(year)) % 7;
+  }
+  // otherwise the answer will be zero
+  return 0;
 }
 
 const monthCode = {

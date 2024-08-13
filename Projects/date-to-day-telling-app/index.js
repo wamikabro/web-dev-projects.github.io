@@ -37,6 +37,18 @@ function dayFromDate(days, month, year) {
   // if its leap year -1
 
   const yearCode = getYearCode(year);
+  const monthCode = getMonthCode(year, month);
+}
+
+function getMonthCode(year, month) {
+  let monthCode = monthCodeObject[month];
+
+  // corner case: if the year is leap and month is 1 or 2, then -1
+  if (isLeapYear(year) && (month == 1 || month == 2)) {
+    monthCode--;
+  }
+
+  console.log(monthCode);
 }
 
 function getYearCode(year) {

@@ -53,18 +53,19 @@ function getYearCode(year) {
 }
 
 const monthCode = {
-  january: 6,
-  february: 2,
-  march: 2,
-  april: 5,
-  may: 0,
-  june: 3,
-  july: 5,
-  august: 1,
-  september: 4,
-  october: 6,
-  november: 2,
-  december: 4,
+  // Month: Value
+  1: 6,
+  2: 2,
+  3: 2,
+  4: 5,
+  5: 0,
+  6: 3,
+  7: 5,
+  8: 1,
+  9: 4,
+  10: 6,
+  11: 2,
+  12: 4,
 };
 
 function subtract1IfLeapYear(year) {

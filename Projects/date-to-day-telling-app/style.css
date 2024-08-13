@@ -89,3 +89,8 @@ main {
 .hide {
   display: none;
 }
+
+#date-container,
+#day-container {
+  color: green;
+}

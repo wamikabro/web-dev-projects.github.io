@@ -33,6 +33,10 @@ function fetchTheDay(days, month, year) {
 function dayFromDate(days, month, year) {
   const yearCode = getYearCode(year);
   const monthCode = getMonthCode(year, month);
+  // 0 and 7 means Sunday
+  const dayCode = (yearCode + monthCode + days) % 7;
+
+  return dayCode;
 }
 
 function getMonthCode(year, month) {

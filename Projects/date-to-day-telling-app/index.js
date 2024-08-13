@@ -30,10 +30,35 @@ function fetchTheDay(days, month, year) {
   }
 }
 
-function dayFromDate(days, month, year) {}
+function dayFromDate(days, month, year) {
+  // take 2 last digits of the year
+  // plus 25% of the last 2 digits in it
+  // divide it by 7 and take its remainder : this is year code
+  // if its leap year -1
+}
+
+const monthCode = {
+  january: 6,
+  february: 2,
+  march: 2,
+  april: 5,
+  may: 0,
+  june: 3,
+  july: 5,
+  august: 1,
+  september: 4,
+  october: 6,
+  november: 2,
+  december: 4,
+};
+
+function subtract1IfLeapYear(year) {
+  if (isLeapYear(year)) return 1;
+  return 0;
+}
 
 function find25Percent(number) {
-  return (number / 100) * 25;
+  return Math.floor((number / 100) * 25);
 }
 
 function last2DigitsOfYear(year) {

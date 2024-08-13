@@ -50,6 +50,18 @@ function getMonthCode(year, month) {
   return monthCode;
 }
 
+const dayCodeObject = {
+  // 0 and 1 both are Sundays
+  0: "Sunday",
+  1: "Monday",
+  2: "Tuesday",
+  3: "Wednesday",
+  4: "Thursday",
+  5: "Friday",
+  6: "Saturday",
+  7: "Sunday",
+};
+
 function getYearCode(year) {
   const partialResult =
     last2DigitsOfYear(year) + find25Percent(last2DigitsOfYear(year));

@@ -18,6 +18,8 @@ Check out the live demos of each project:
 - [Sticky Navbar](https://wamikabro.github.io/web-dev-projects.github.io/Projects/sticky-navbar/) - Sticky Navbar on desktop.
 - [Image Search App](https://wamikabro.github.io/web-dev-projects.github.io/Projects/image-search-app/) - An image search app made using Unsplash API.
 - [Date to Day Teller](https://wamikabro.github.io/web-dev-projects.github.io/Projects/date-to-day-telling-app/) - A convertor that takes Date and returns corresponding Day to it.
+- [Morph Loading Animation](https://wamikabro.github.io/web-dev-projects.github.io/Projects/morph-loading-animation/) - A loading animation made using html css animation.
+
 ## Installation
 
 To run any of these projects locally:

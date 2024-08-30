@@ -8,4 +8,25 @@ body,
 html {
   margin: 0px;
   padding: 0px;
+  font-size: 62.5%;
+}
+
+/* Navigation */
+nav {
+  background-color: #4a526d;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem 1rem 1rem;
+  font-size: 1.8rem;
+}
+
+.nav-items-section {
+  display: flex;
+}
+
+.nav-items {
+  display: flex;
+  list-style-type: none;
 }

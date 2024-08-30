@@ -9,6 +9,7 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  background-color: rgb(17, 17, 17);
 }
 
 .box {
@@ -27,7 +28,7 @@
   background-color: grey;
 }
 .box-four {
-  background-color: maroon;
+  background-color: darkslategrey;
 }
 
 @keyframes morph {

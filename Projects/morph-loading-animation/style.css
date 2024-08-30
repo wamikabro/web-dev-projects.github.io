@@ -2,16 +2,25 @@
   margin: 0px;
   padding: 0px;
 }
+
+body {
+  background-color: white;
+}
+
 .container {
   height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
-  background-color: rgb(29, 29, 29);
+  flex-direction: column;
+  gap: 100px;
 }
 
+.loading-container {
+  display: flex;
+  gap: 1rem;
+}
 .box {
   height: 3rem;
   width: 3rem;
@@ -47,4 +56,43 @@
     border-radius: 100%;
     transform: rotate(360deg);
   }
+}
+
+/*Toggle*/
+
+.toggle-container {
+  display: flex;
+}
+
+#checkbox {
+  display: none;
+}
+
+.toggle-button {
+  width: 4rem;
+  height: 2rem;
+  background-color: silver;
+  border-radius: 2rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.toggle-button::after {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: yellow;
+  position: absolute;
+  top: 0.25rem;
+  left: 0.2rem;
+  border-radius: 100px;
+}
+
+#checkbox:checked + .toggle-button {
+  background-color: black;
+}
+
+#checkbox:checked + .toggle-button::after {
+  left: 2.3rem;
+  background-color: white;
 }

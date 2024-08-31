@@ -43,7 +43,17 @@ nav {
   gap: 3rem;
 }
 
-.nav-items li:first-child {
+.nav-items a {
+  text-decoration: none;
+  color: var(--light);
+}
+
+.nav-items a:hover {
+  color: var(--primary-color-two);
+  transition: linear 200ms;
+}
+
+.nav-items a:first-child {
   color: var(--primary-color-two);
 }
 

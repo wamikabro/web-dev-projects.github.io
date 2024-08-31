@@ -42,21 +42,21 @@ nav {
   list-style-type: none;
 }
 
-.nav-items li {
+.nav-items li a {
   padding: 0 1.5rem;
-}
-
-.nav-items a {
-  text-decoration: none;
   color: var(--light);
 }
 
-.nav-items a:hover {
+.nav-items li a {
+  text-decoration: none;
+}
+
+.nav-items li a:hover {
   color: var(--primary-color-two);
   transition: linear 200ms;
 }
 
-.nav-items a:first-child {
+.nav-items li:first-child a {
   color: var(--primary-color-two);
 }
 

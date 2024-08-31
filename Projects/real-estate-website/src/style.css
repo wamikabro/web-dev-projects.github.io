@@ -46,3 +46,18 @@ nav {
 .nav-items li:first-child {
   color: var(--primary-color-two);
 }
+
+.nav-button {
+  color: var(--primary-color-two);
+  background-color: transparent;
+  border: 0.1rem solid var(--primary-color-two);
+  padding: 1rem 3rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+.nav-button:hover {
+  background-color: var(--primary-color-two);
+  color: var(--light);
+  transition: linear 200ms;
+}

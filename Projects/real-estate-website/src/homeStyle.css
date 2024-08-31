@@ -1,0 +1,4 @@
+/* Color currently selected navigation item */
+.nav-items li:first-child a {
+  color: var(--primary-color-two);
+}

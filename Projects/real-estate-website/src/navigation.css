@@ -56,10 +56,6 @@ nav {
   transition: linear 200ms;
 }
 
-.nav-items li:first-child a {
-  color: var(--primary-color-two);
-}
-
 .nav-button {
   color: var(--primary-color-two);
   background-color: transparent;

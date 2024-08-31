@@ -25,6 +25,7 @@ nav {
   background-color: var(--primary-color-one);
   color: var(--light);
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;

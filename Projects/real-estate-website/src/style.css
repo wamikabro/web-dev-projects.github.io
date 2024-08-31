@@ -1,3 +1,12 @@
+:root {
+  --primary-color-one: #4a526d;
+  --primary-color-two: #ed6779;
+  --secondary-color-one: #ecebe8;
+  --secondary-color-two: #d5d5d8;
+  --light: #fff;
+  --dark: #333;
+}
+
 * {
   box-sizing: border-box;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -13,8 +22,8 @@ html {
 
 /* Navigation */
 nav {
-  background-color: #4a526d;
-  color: white;
+  background-color: var(--primary-color-one);
+  color: var(--light);
   display: flex;
   align-items: center;
   justify-content: space-between;

@@ -73,7 +73,27 @@ nav {
 }
 
 @media (max-width: 576px) {
-  body {
-    background-color: red;
+  .nav-items-section {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    right: -100%;
+    top: 8.2rem;
+    flex-direction: column;
+    padding-top: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-items {
+    gap: 2rem;
+    flex-direction: column;
+  }
+
+  .nav-items li a {
+    color: var(--primary-color-one);
+  }
+
+  .nav-items li a:hover {
+    color: var(--primary-color-two);
   }
 }

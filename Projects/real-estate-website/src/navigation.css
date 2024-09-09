@@ -31,6 +31,11 @@ nav {
   font-size: 1.8rem;
 }
 
+/*Hide Hambuger Icon by default*/
+i.hamburger-icon {
+  display: none;
+}
+
 .nav-items-section {
   display: flex;
   gap: 4rem;
@@ -73,6 +78,11 @@ nav {
 }
 
 @media (max-width: 576px) {
+  i.hamburger-icon {
+    display: block;
+    color: var(--light);
+    font-size: 3rem;
+  }
   .nav-items-section {
     position: absolute;
     height: 100vh;

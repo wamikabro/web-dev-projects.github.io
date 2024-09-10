@@ -9,4 +9,20 @@
 main .hero-section {
   height: 60rem;
   background-color: var(--primary-color-one);
+  display: flex;
+}
+
+main .text h2 {
+  margin: 0;
+  font-size: 8rem;
+}
+
+main .text p {
+  font-size: 3rem;
+}
+
+main .image img {
+  width: 60rem;
+  background-color: red;
+  height: 40rem;
 }

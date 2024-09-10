@@ -77,14 +77,6 @@ i.hamburger-icon {
   transition: linear 200ms;
 }
 
-.hide {
-  display: none;
-}
-
-.show {
-  display: block;
-}
-
 @media (max-width: 576px) {
   i.hamburger-icon {
     display: block;
@@ -104,7 +96,7 @@ i.hamburger-icon {
     transition: ease 200ms;
   }
 
-  .nav-items-section-show {
+  .nav-items-section-toggle {
     left: 0%;
   }
 

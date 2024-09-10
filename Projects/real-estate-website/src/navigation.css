@@ -95,6 +95,7 @@ i.hamburger-icon {
     align-items: center;
   }
   .nav-items {
+    padding: 0px;
     gap: 2rem;
     flex-direction: column;
   }

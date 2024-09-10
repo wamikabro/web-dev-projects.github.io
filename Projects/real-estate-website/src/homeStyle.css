@@ -1,5 +1,14 @@
 @import "navigation.css";
 
+:root {
+  --primary-color-one: #4a526d;
+  --primary-color-two: #ed6779;
+  --secondary-color-one: #ecebe8;
+  --secondary-color-two: #d5d5d8;
+  --light: #fff;
+  --dark: #333;
+}
+
 /* Color currently selected navigation item */
 .nav-items li:first-child a {
   color: var(--primary-color-two);
@@ -7,22 +16,36 @@
 
 /* Main */
 main .hero-section {
-  height: 60rem;
+  height: 55rem;
   background-color: var(--primary-color-one);
   display: flex;
+  padding: 2rem 2rem;
 }
 
 main .text h2 {
   margin: 0;
   font-size: 8rem;
+  color: var(--light);
 }
 
 main .text p {
   font-size: 3rem;
+  color: var(--light);
+}
+
+main .text .sell-now-button {
+  background-color: var(--primary-color-two);
+  color: var(--light);
+  font-weight: 500;
+  font-size: 2rem;
+  width: 12rem;
+  height: 5rem;
+  border: none;
+  border-radius: 0.5rem;
 }
 
 main .image img {
-  width: 60rem;
-  background-color: red;
+  width: 58rem;
   height: 40rem;
+  object-fit: contain;
 }

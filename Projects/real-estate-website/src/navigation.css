@@ -93,7 +93,13 @@ i.hamburger-icon {
     padding-top: 3rem;
     justify-content: center;
     align-items: center;
+    transition: ease 200ms;
   }
+
+  .nav-items-section-show {
+    left: 0%;
+  }
+
   .nav-items {
     padding: 0px;
     gap: 2rem;

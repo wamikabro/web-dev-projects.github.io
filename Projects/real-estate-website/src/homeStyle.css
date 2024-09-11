@@ -48,4 +48,5 @@ main .image img {
   width: 58rem;
   height: 40rem;
   object-fit: contain;
+  object-position: right;
 }

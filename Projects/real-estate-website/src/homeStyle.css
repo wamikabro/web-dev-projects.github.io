@@ -9,7 +9,7 @@
   --light: #fff;
   --dark: #333;
 
-  --primary-color-two-less-opacity: rgba(237, 103, 121, 0.3);
+  --primary-color-two-less-opacity: rgba(237, 103, 121, 0.1);
 }
 
 /* Color currently selected navigation item */

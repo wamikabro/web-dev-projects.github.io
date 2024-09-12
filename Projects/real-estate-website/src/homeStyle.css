@@ -3,6 +3,7 @@
 :root {
   --primary-color-one: #4a526d;
   --primary-color-two: #ed6779;
+  --primary-color-three: #dcaf48;
   --secondary-color-one: #ecebe8;
   --secondary-color-two: #d5d5d8;
   --light: #fff;
@@ -49,4 +50,29 @@ main .image img {
   height: 40rem;
   object-fit: contain;
   object-position: right;
+}
+
+/* How We Work */
+.how-it-works-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--primary-color-three);
+}
+
+.heading-container h2 {
+  font-size: 4rem;
+  color: var(--light);
+}
+
+.cards-container {
+  display: flex;
+  gap: 5rem;
+}
+
+.card {
+  width: 35rem;
+  height: 30rem;
+
+  background-color: var(--light);
 }

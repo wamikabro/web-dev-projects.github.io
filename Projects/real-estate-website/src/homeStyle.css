@@ -63,16 +63,30 @@ main .image img {
 .heading-container h2 {
   font-size: 4rem;
   color: var(--light);
+  margin: 5rem 0;
 }
 
 .cards-container {
   display: flex;
-  gap: 5rem;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 .card {
   width: 35rem;
   height: 30rem;
-
   background-color: var(--light);
+}
+
+.sell-now-button {
+  width: 14rem;
+  height: 5rem;
+  font-weight: 600;
+  background-color: var(--primary-color-one);
+  border-radius: 1rem;
+  border: none;
+  color: var(--light);
+  font-size: 2rem;
+  border-radius: 0.4rem;
+  margin: 5rem 0;
 }

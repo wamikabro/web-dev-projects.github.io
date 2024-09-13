@@ -95,6 +95,9 @@ main .image img {
   padding: 3rem;
 }
 
+.card h3 {
+  font-size: 2rem;
+}
 .sell-now-button {
   width: 14rem;
   height: 5rem;

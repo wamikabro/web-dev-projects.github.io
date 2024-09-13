@@ -121,3 +121,13 @@ main .image img {
   cursor: pointer;
   color: var(--primary-color-one);
 }
+
+/* About Me Section */
+.about-me {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-image-text-and-button {
+  display: flex;
+}

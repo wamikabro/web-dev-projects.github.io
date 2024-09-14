@@ -51,9 +51,6 @@ i.hamburger-icon {
 .nav-items li a {
   padding: 0 1.5rem;
   color: var(--light);
-}
-
-.nav-items li a {
   text-decoration: none;
 }
 

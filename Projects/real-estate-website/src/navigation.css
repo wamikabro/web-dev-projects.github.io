@@ -82,6 +82,10 @@ i.close-icon {
   transition: linear 200ms;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 @media (max-width: 576px) {
   /*To hide Hamburger icon when menu is open*/
   i.hamburger-icon.hamburger-icon-hide {

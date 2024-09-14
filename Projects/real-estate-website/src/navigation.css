@@ -33,6 +33,14 @@ nav {
 
 /*Hide Hambuger Icon by default*/
 i.hamburger-icon {
+  font-size: 3rem;
+  color: var(--light);
+  display: none;
+}
+
+i.close-icon {
+  font-size: 3rem;
+  color: var(--light);
   display: none;
 }
 
@@ -75,10 +83,18 @@ i.hamburger-icon {
 }
 
 @media (max-width: 576px) {
+  /*To hide Hamburger icon when menu is open*/
+  i.hamburger-icon.hamburger-icon-hide {
+    display: none;
+  }
+
+  /*To unhide/show x/close icon*/
+  i.close-icon.close-icon-show {
+    display: block;
+  }
+
   i.hamburger-icon {
     display: block;
-    color: var(--light);
-    font-size: 3rem;
   }
   .nav-items-section {
     position: absolute;

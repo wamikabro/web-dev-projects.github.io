@@ -127,7 +127,12 @@ main .image img {
   display: flex;
   flex-direction: column;
 }
-
+.about-me-image {
+  width: 80rem;
+  height: 40rem;
+  object-fit: contain;
+  border-radius: 1.5rem;
+}
 .about-me-image-text-and-button {
   display: flex;
 }

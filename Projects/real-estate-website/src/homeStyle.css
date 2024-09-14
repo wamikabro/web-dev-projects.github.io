@@ -126,7 +126,15 @@ main .image img {
 .about-me {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
+
+.about-me-heading {
+  font-size: 4rem;
+  color: var(--primary-color-one);
+  margin: 5rem 0;
+}
+
 .about-me-image {
   width: 80rem;
   height: 40rem;

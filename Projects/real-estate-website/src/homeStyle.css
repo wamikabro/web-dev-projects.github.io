@@ -161,3 +161,26 @@ main .image img {
 .about-me-image-text-and-button {
   display: flex;
 }
+
+.about-me-description {
+  font-size: 2rem;
+  color: var(--primary-color-one);
+}
+
+.read-more-button {
+  border: 0.1rem solid var(--primary-color-two);
+  background-color: transparent;
+  color: var(--primary-color-two);
+  font-weight: 500;
+  font-size: 2rem;
+  width: 12rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.read-more-button:hover {
+  background-color: var(--primary-color-two);
+  color: var(--light);
+  border: none;
+}

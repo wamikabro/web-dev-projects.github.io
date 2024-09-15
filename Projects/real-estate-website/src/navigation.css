@@ -74,6 +74,7 @@ i.close-icon {
   padding: 1rem 3rem;
   border-radius: 0.5rem;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .nav-button:hover {

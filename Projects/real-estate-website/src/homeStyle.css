@@ -144,6 +144,9 @@ main .image img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 8rem 2rem 10rem;
+
+  background-color: var(--secondary-color-one);
 }
 
 .about-me-heading {
@@ -160,6 +163,7 @@ main .image img {
 }
 .about-me-image-text-and-button {
   display: flex;
+  gap: 6rem;
 }
 
 .about-me-description {

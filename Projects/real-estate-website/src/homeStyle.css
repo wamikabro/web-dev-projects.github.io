@@ -80,6 +80,16 @@ main .image img {
   background-color: var(--light);
   border-radius: 1rem;
   padding: 4rem;
+  transition: ease-in-out 200ms;
+}
+
+.card:hover {
+  box-shadow: 0 0 3rem var(--primary-color-two);
+}
+
+.card:hover h3 {
+  transition: ease-in-out 200ms;
+  color: var(--primary-color-two);
 }
 
 .card i {

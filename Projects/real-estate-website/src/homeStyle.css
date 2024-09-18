@@ -189,3 +189,16 @@ main .image img {
   color: var(--light);
   border: none;
 }
+
+/*Testimonials Section*/
+.testimonials-section {
+  background-color: var(--primary-color-one);
+  display: flex;
+  justify-content: center;
+}
+
+.testimonials-section .heading {
+  font-size: 4rem;
+  color: var(--light);
+  margin: 5rem 0;
+}

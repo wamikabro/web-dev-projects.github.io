@@ -27,7 +27,9 @@
 .controls .arrow {
   position: absolute;
   top: 50%;
+  transform: translateY(-50%);
   cursor: pointer;
+  font-size: 50px;
 }
 
 .arrow.right {

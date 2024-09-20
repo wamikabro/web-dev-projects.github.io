@@ -194,7 +194,8 @@ main .image img {
 .testimonials-section {
   background-color: var(--primary-color-one);
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .testimonials-section .heading {

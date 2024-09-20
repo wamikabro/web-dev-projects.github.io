@@ -5,7 +5,7 @@ const indicatorParent = document.querySelector(".controls ul");
 
 let sectionIndex = 0;
 
-function setIndex(sectionIndex) {
+function setIndex() {
   slider.style.transform = "translateX(" + sectionIndex * -25 + "%)";
   /* remove other selected indicators */
   document.querySelector(".controls .selected").classList.remove("selected");
@@ -14,7 +14,7 @@ function setIndex(sectionIndex) {
 document.querySelectorAll(".controls ul li").forEach((indicator, index) => {
   indicator.addEventListener("click", () => {
     sectionIndex = index;
-    setIndex(sectionIndex);
+    setIndex();
     /* impliment new selected indicator */
     indicator.classList.add("selected");
   });
@@ -22,12 +22,12 @@ document.querySelectorAll(".controls ul li").forEach((indicator, index) => {
 
 rightArrow.addEventListener("click", () => {
   sectionIndex = sectionIndex < 3 ? sectionIndex + 1 : 3;
-  setIndex(sectionIndex);
+  setIndex();
   indicatorParent.children[sectionIndex].classList.add("selected");
 });
 
 leftArrow.addEventListener("click", () => {
   sectionIndex = sectionIndex > 0 ? sectionIndex - 1 : 0;
-  setIndex(sectionIndex);
+  setIndex();
   indicatorParent.children[sectionIndex].classList.add("selected");
 });

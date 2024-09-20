@@ -8,6 +8,11 @@ document.querySelectorAll(".controls ul li").forEach((indicator, index) => {
   indicator.addEventListener("click", () => {
     sectionIndex = index;
     slider.style.transform = "translateX(" + sectionIndex * -25 + "%)";
+
+    /* remove other selected indicators */
+    document.querySelector(".controls .selected").classList.remove("selected");
+    /* impliment new selected indicator */
+    indicator.classList.add("selected");
   });
 });
 

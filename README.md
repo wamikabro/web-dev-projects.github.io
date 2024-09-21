@@ -19,6 +19,7 @@ Check out the live demos of each project:
 - [Image Search App](https://wamikabro.github.io/web-dev-projects.github.io/Projects/image-search-app/) - An image search app made using Unsplash API.
 - [Date to Day Teller](https://wamikabro.github.io/web-dev-projects.github.io/Projects/date-to-day-telling-app/) - A convertor that takes Date and returns corresponding Day to it.
 - [Morph Loading Animation](https://wamikabro.github.io/web-dev-projects.github.io/Projects/morph-loading-animation/) - A loading animation made using html css animation.
+- [Carousel Testimonial Slider](https://wamikabro.github.io/web-dev-projects.github.io/Projects/carousel-testimonial-slider/) - A non-repeating manual Carousel slider for testimonials.
 
 ## Installation
 

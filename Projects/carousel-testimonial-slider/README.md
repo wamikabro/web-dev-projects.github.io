@@ -15,9 +15,7 @@ This project is a testimonial carousel built using HTML, CSS, and JavaScript. It
 To see the testimonial carousel in action, open the HTML file in your browser or [click here](https://wamikabro.github.io/web-dev-projects.github.io/Projects/carousel-testimonial-slider).
 
 ## Screenshot
-
-![image](https://github.com/user-attachments/assets/3bf6912a-e6ee-46a5-b9cb-22934938801c)
-![image](https://github.com/user-attachments/assets/237f82c3-64bf-4131-b918-2c81ead46e82)
+![image](https://github.com/user-attachments/assets/bf74430a-3a7b-47d7-8d02-6ed493063159)
 
 ## Contributing
 

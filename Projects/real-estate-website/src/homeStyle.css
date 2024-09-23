@@ -238,3 +238,12 @@ main .image img {
   margin-top: 2rem;
   color: var(--light);
 }
+
+.arrow {
+  background-color: var(--primary-color-two);
+}
+
+.arrow:hover {
+  background-color: #e73b52;
+  color: white;
+}

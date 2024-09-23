@@ -1,5 +1,5 @@
 @import "navigation.css";
-
+@import "../../carousel-testimonial-slider/style.css";
 :root {
   --primary-color-one: #4a526d;
   --primary-color-two: #ed6779;
@@ -202,4 +202,39 @@ main .image img {
   font-size: 4rem;
   color: var(--light);
   margin: 5rem 0;
+}
+
+/*Testimonial style changes*/
+.carousel {
+  border: none;
+}
+
+.controls {
+  color: var(--light);
+}
+
+.controls ul li {
+  width: 1rem;
+  height: 1rem;
+  border: 3px solid var(--light);
+  background-color: var(--light);
+}
+
+.carousel .slider .slide {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 10rem 25rem;
+}
+
+.carousel .slider .slide .name {
+  font-size: 5rem;
+  color: var(--primary-color-two);
+}
+
+.carousel .slider .slide .testimonial {
+  font-size: 2rem;
+  margin-top: 2rem;
+  color: var(--light);
 }

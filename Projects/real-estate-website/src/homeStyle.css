@@ -1,5 +1,6 @@
 @import "navigation.css";
 @import "../../carousel-testimonial-slider/style.css";
+@import "contact-us-style.css";
 :root {
   --primary-color-one: #4a526d;
   --primary-color-two: #ed6779;

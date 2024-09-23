@@ -196,12 +196,12 @@ main .image img {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 8rem 2rem 10rem;
 }
 
 .testimonials-section .heading {
   font-size: 4rem;
   color: var(--light);
-  margin: 5rem 0;
 }
 
 /*Testimonial style changes*/
